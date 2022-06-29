@@ -3,6 +3,8 @@
 --Created on 2022-06-27 
 """
 
+"""Worst Time complexity O(n * n)"""
+
 
 def selection_sort(arr):
     n = len(arr) - 1

@@ -3,6 +3,7 @@
 --Created on 2022-06-27
 """
 
+"""Worst Time complexity O(n * n)"""
 
 def insertion_sort(arr):
     n = len(arr)
