@@ -22,18 +22,24 @@ def down_shift(arr, node, upper_bound):
                 break
             elif arr[l_child] > arr[r_child]:
                 swap(arr, node, l_child)
+                node = l_child
             elif arr[r_child] > arr[l_child]:
                 swap(arr, node, r_child)
+                node = r_child
             else:
                 break
         elif l_child < upper_bound:
-            if arr[l_child] > arr[node]:
+            if arr[l_child] >= arr[node]:
                 swap(arr, node, l_child)
+                node = l_child
             else:
                 break
         elif r_child < upper_bound:
             if arr[r_child] > arr[node]:
                 swap(arr, node, r_child)
+                node = r_child
+            else:
+                break
         else:
             break
 
@@ -56,5 +62,5 @@ def heap_sort(arr):
 
 
 if __name__ == '__main__':
-    unsorted_list = [31, 41, 59, 26, 41, 58]
+    unsorted_list = [5, 3, 6, 8, 0, 1, 2, 4]
     print(heap_sort(unsorted_list))
