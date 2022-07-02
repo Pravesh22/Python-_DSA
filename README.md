@@ -12,3 +12,10 @@
 
 </details>
 
+<details open>
+<summary>Linked List</summary>
+
+- [Singly Linked List](https://github.com/Pravesh22/Python-_DSA/blob/master/linked_list/singly_linked_list.py)
+
+</details>
+
