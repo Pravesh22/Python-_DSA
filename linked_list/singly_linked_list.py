@@ -84,6 +84,36 @@ class Singly_Linked_List:
             temp = temp.next
             count += 1
 
+    # Exercise
+
+    """if given data is present in the linked list then it will insert the requested data_to_insert after the 
+    data_after node """
+
+    def insert_after_value(self, data_after, data_to_insert):
+        itr = self.head
+        temp_len = self.get_length()
+        while itr:
+            if data_after == itr.data:
+                node = Node(data_to_insert, itr.next)
+                itr.next = node
+                break
+            itr = itr.next
+
+        if temp_len == self.get_length():
+            print("Insertion failed.Given data doesn't exist in Linked List")
+        else:
+            print(f"Insertion successful after {data_after} value in linked_list")
+
+    """remove the node of the linked list if the given data is present in the linked list"""
+
+    def remove_by_value(self, data):
+        itr = self.head
+        while itr:
+            if data == itr.next.data:
+                itr.next = itr.next.next
+                break
+            itr = itr.next
+
 
 if __name__ == '__main__':
     singly_linked_list = Singly_Linked_List()
@@ -97,3 +127,9 @@ if __name__ == '__main__':
     print("Insert at index 2 in Linked List: ", singly_linked_list.print())
 
     print("Length of linked list: ", singly_linked_list.get_length())
+
+    singly_linked_list.insert_after_value(13, 20)
+    print("Insert after value 13 in Linked List: ", singly_linked_list.print())
+
+    singly_linked_list.remove_by_value(20)
+    print("Remove after value 20 in Linked List: ", singly_linked_list.print())
