@@ -10,7 +10,7 @@ class Node:
         self.next = pointer
 
 
-class Singly_Linked_List:
+class SinglyLinkedList:
     def __init__(self):
         self.head = None
 
@@ -116,7 +116,7 @@ class Singly_Linked_List:
 
 
 if __name__ == '__main__':
-    singly_linked_list = Singly_Linked_List()
+    singly_linked_list = SinglyLinkedList()
     singly_linked_list.insert_values([12, 13, 14, 2, 3])
     print("Original Linked List: ", singly_linked_list.print())
 
