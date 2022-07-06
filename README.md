@@ -18,6 +18,7 @@
 - [Singly Linked List](https://github.com/Pravesh22/Python-_DSA/blob/master/linked_list/singly_linked_list.py)
 - [Doubly Linked List](https://github.com/Pravesh22/Python-_DSA/blob/master/linked_list/doubly_linked_list.py)
 - [Circular Singly Linked List](https://github.com/Pravesh22/Python-_DSA/blob/master/linked_list/circular_singly_linked_list.py)
+- [Circular Doubly Linked List](https://github.com/Pravesh22/Python-_DSA/blob/master/linked_list/circular_doubly_linked_list.py)
 
 </details>
 
