@@ -84,6 +84,25 @@ class SinglyLinkedList:
             temp = temp.next
             count += 1
 
+    # reverse the linked list
+    def reverse_list(self):
+        if self.head is None:
+            raise Exception("Null list cannot be reversed")
+
+        current_node = self.head
+        count = 0
+        while current_node.next:
+            temp_node = current_node.next
+            if count == 0:
+                current_node.next = None
+            else:
+                current_node.next = self.head
+                self.head = current_node
+            current_node = temp_node
+            count += 1
+        current_node.next = self.head
+        self.head = current_node
+
     # Exercise
 
     """if given data is present in the linked list then it will insert the requested data_to_insert after the 
@@ -133,3 +152,5 @@ if __name__ == '__main__':
 
     singly_linked_list.remove_by_value(20)
     print("Remove after value 20 in Linked List: ", singly_linked_list.print())
+    singly_linked_list.reverse_list()
+    print("After reversing linked list: ", singly_linked_list.print())
