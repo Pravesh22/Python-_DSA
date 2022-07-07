@@ -22,3 +22,10 @@
 
 </details>
 
+<details open>
+<summary>Hash Table</summary>
+
+- [Basic Hash Table](https://github.com/Pravesh22/Python-_DSA/blob/master/hash_map/basic_hash_table.py)
+
+</details>
+
