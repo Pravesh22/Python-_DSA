@@ -30,3 +30,11 @@
 
 </details>
 
+<details open>
+<summary>Recursion</summary>
+
+- [Basic Recursion Example](https://github.com/Pravesh22/Python-_DSA/blob/master/recursion/basic_sum_in_recursion.py)
+- [Fibonacci Sequence](https://github.com/Pravesh22/Python-_DSA/blob/master/recursion/fibonacci_sequence.py)
+
+</details>
+
