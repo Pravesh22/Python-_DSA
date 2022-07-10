@@ -38,3 +38,11 @@
 
 </details>
 
+<details open>
+<summary>Stack</summary>
+
+- [Stack Example 1](https://github.com/Pravesh22/Python-_DSA/blob/master/stack/stack_exercise.py)
+- [Stack Example 2](https://github.com/Pravesh22/Python-_DSA/blob/master/stack/stack_exercise_2.py)
+
+</details>
+
