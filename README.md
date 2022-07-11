@@ -46,3 +46,10 @@
 
 </details>
 
+<details open>
+<summary>Tree</summary>
+
+- [Basic Tree](https://github.com/Pravesh22/Python-_DSA/blob/master/tree/basic_tree.py)
+
+</details>
+
