@@ -53,6 +53,7 @@
 - [Tree Exercise 1](https://github.com/Pravesh22/Python-_DSA/blob/master/tree/tree_exercise_1.py)
 - [Tree Exercise 2](https://github.com/Pravesh22/Python-_DSA/blob/master/tree/tree_exercise_2.py)
 - [Binary Tree](https://github.com/Pravesh22/Python-_DSA/blob/master/tree/binary_tree.py)
+- [Binary Tree Exercise](https://github.com/Pravesh22/Python-_DSA/blob/master/tree/binary_tree_exercise.py)
 
 </details>
 
